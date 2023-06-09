@@ -48,7 +48,7 @@
     window.peWhiteSpaces.groups.find((group)=> group.groupId === '2')
     .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'LBL_NON_BREAK').unicode = 'U+0009';
 
-    window.peWhiteSpaces.groups.find((group)=> group.groupId === '2')
-   .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'LBL_NON_BREAK').shortcut = 'shift+mod+Y';
-
+    window.peWhiteSpaces.groups.find((group)=> group.groupId === '1')
+   .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'RIGHT_INDENT_TAB').shortcut = 'alt+mod+U';
+ 
 })();   
