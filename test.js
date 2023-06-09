@@ -49,6 +49,6 @@
     .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'LBL_NON_BREAK').unicode = 'U+0009';
 
     window.peWhiteSpaces.groups.find((group)=> group.groupId === '1')
-   .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'RIGHT_INDENT_TAB').shortcut = 'alt+mod+U';
+   .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'RIGHT_INDENT_TAB').shortcut = 'shift+mod+U';
  
 })();   
